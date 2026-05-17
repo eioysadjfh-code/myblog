@@ -516,14 +516,16 @@ index:
   # Independent config of home page subtitle
   slogan:
     enable: true
-
-    # 为空则按 hexo config.subtitle 显示，支持列表格式来实现随机选择一行文字显示
-    # If empty, text based on `subtitle` in hexo config, support list format to random selection of a row for display
     text: "欢迎来到左左的博客空间 🚀"
 
-    # 通过 API 接口作为首页副标题的内容，必须返回的是 JSON 格式，如果请求失败则按 text 字段显示，该功能必须先开启 typing 打字机功能
-    # Subtitle of the homepage through the API, must be returned a JSON. If the request fails, it will be displayed in `text` value. This feature must first enable the typing animation
-    api:
+  # 🚀【从这里开始是新加入的】把关于我的简介搬到这里：
+  sub_slogan:
+    enable: true
+    text: "左左 | 记录生活与技术的赛博空间。很高兴能在这里与你相遇！👋"
+
+  # 🚀【顺便开启这个】把你的 GitHub/微信 等图标也挂到主页大图上：
+  social:
+    enable: true    api:
       enable: false
 
       # 请求地址
