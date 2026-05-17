@@ -518,24 +518,25 @@ index:
     enable: true
     text: "欢迎来到左左的博客空间 🚀"
 
-  # 🚀【从这里开始是新加入的】把关于我的简介搬到这里：
+  # 把关于我的简介搬到这里：
   sub_slogan:
     enable: true
     text: "左左 | 记录生活与技术的赛博空间。很高兴能在这里与你相遇！👋"
 
-  # 🚀【顺便开启这个】把你的 GitHub/微信 等图标也挂到主页大图上：
+  # 把你的 GitHub/微信 等图标也挂到主页大图上：
   social:
-    enable: true    api:
-      enable: false
+    enable: true
 
-      # 请求地址
-      # Request url
-      url: ""
-
-      # 请求方法
-      # Request method
-      # Available: GET | POST | PUT
-      method: "GET"
+  # 后面原本自带的配置，整齐排列：
+  api:
+    enable: false
+    # 请求地址
+    # Request url
+    url: ""
+    # 请求方法
+    # Request method
+    # Available: GET | POST | PUT
+    method: "GET"
 
       # 请求头
       # Request headers
